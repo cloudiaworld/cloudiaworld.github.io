@@ -2807,8 +2807,15 @@
 			font-size: 1.25em;
 		}
 
-		/* Box */
 
+		/* Feature-icon */
+		.feature-icon {
+			margin-bottom: 2em;
+			text-align: center;
+
+		}
+
+		/* Box */
 		.box.highlight {
 			text-align: left;
 			position: relative;
