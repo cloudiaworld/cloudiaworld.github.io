@@ -2063,7 +2063,7 @@
 			display: inline-block;
 			width: 2em;
 			height: 2em;
-			font-size: 4.5em;
+			font-size: 6.5em;
 			border-radius: 100%;
 			box-shadow: inset 0 0 0 1px #666;
 			color: #666;
@@ -2535,7 +2535,7 @@
 		background-image: url("../../images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
-		height: 28em;
+		height: 54em;
 		text-align: center;
 		position: relative;
 	}
