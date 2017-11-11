@@ -2366,6 +2366,10 @@
 		text-align: center;
 	}
 
+	.box.highlight-2 {
+		text-align: center;
+	}
+
 	.box.post {
 		position: relative;
 		margin: 0 0 2em 0;
@@ -2824,6 +2828,7 @@
 			position: relative;
 			padding-left: 7em;
 		}
+
 
 		.box.highlight i {
 			position: absolute;
