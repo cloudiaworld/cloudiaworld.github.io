@@ -4,6 +4,8 @@
 
 :root{
 	--main-color:#99cc00;
+	--second-color:#6a4c93;
+	--third-color:#ffca3a;
 }
 
 /*
@@ -2109,6 +2111,40 @@
 		background: rgba(255, 255, 255, 0.5);
 	}
 
+
+	/* Flaticon */
+	/* Icon */
+
+	.flaticon {
+		text-decoration: none;
+		position: relative;
+		text-decoration: none;
+	}
+
+	.flaticon:before {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-family: Flaticon;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
+	}
+
+	.flaticon > .label {
+		display: none;
+	}
+
+	.flaticon.major {
+		text-align: center;
+		cursor: default;
+		color:var(--main-color);
+		line-height: 4.5em;
+	}
+
+
+	.flaticon.major:before {
+		font-size: 56px;
+	}
 
 
 	/* Icon */
