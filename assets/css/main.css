@@ -4,6 +4,8 @@
 
 :root{
 	--main-color:#99cc00;
+	--second-color:#6a4c93;
+	--third-color:#ffca3a;
 }
 
 /*
@@ -2109,6 +2111,50 @@
 		background: rgba(255, 255, 255, 0.5);
 	}
 
+
+	/* Flaticon */
+		/* Icon */
+
+	.flaticon {
+		text-decoration: none;
+		position: relative;
+		text-decoration: none;
+	}
+
+	.flaticon:before {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-family: Flaticon;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
+	}
+
+	.flaticon > .label {
+		display: none;
+	}
+
+	.flaticon.major {
+		text-align: center;
+		cursor: default;
+		background-color: var(--main-color);
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+		color: #fff;
+		border-radius: 100%;
+		display: inline-block;
+		width: 6.5em;
+		height: 6.5em;
+		line-height: 6.5em;
+		box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
+		margin: 0 0 2.5em 0;
+	}
+
+	.flaticon.major:before {
+		font-size: 46px;
+	}
 
 
 	/* Icon */
