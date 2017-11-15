@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 14/11/2017 14:51
+  	Creation date: 15/11/2017 15:01
   	*/
 
 @font-face {
@@ -29,12 +29,22 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-factory:before { content: "\f100"; }
-.flaticon-weather:before { content: "\f101"; }
-.flaticon-summer:before { content: "\f102"; }
-.flaticon-temperature:before { content: "\f103"; }
-.flaticon-megaphone:before { content: "\f104"; }
-.flaticon-wifi-connection-signal-symbol:before { content: "\f105"; }
-.flaticon-wind-mill:before { content: "\f106"; }
-.flaticon-pressure:before { content: "\f107"; }
-.flaticon-soil:before { content: "\f108"; }
+.flaticon-wifi:before { content: "\f100"; }
+.flaticon-blueetooth-logo:before { content: "\f101"; }
+.flaticon-newspaper:before { content: "\f102"; }
+.flaticon-progress-report:before { content: "\f103"; }
+.flaticon-decision-making:before { content: "\f104"; }
+.flaticon-analysis:before { content: "\f105"; }
+.flaticon-big-map-placeholder-outlined-symbol-of-interface:before { content: "\f106"; }
+.flaticon-bar-chart:before { content: "\f107"; }
+.flaticon-database:before { content: "\f108"; }
+.flaticon-network:before { content: "\f109"; }
+.flaticon-factory:before { content: "\f10a"; }
+.flaticon-weather:before { content: "\f10b"; }
+.flaticon-summer:before { content: "\f10c"; }
+.flaticon-temperature:before { content: "\f10d"; }
+.flaticon-megaphone:before { content: "\f10e"; }
+.flaticon-wifi-connection-signal-symbol:before { content: "\f10f"; }
+.flaticon-wind-mill:before { content: "\f110"; }
+.flaticon-pressure:before { content: "\f111"; }
+.flaticon-soil:before { content: "\f112"; }

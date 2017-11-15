@@ -2146,6 +2146,17 @@
 		font-size: 56px;
 	}
 
+	.flaticon.major-2 {
+		text-align: center;
+		cursor: default;
+		color:var(--second-color);
+		line-height: 4.5em;
+	}
+
+
+	.flaticon.major-2:before {
+		font-size: 56px;
+	}
 
 	/* Icon */
 
@@ -2640,6 +2651,15 @@
 
 	.wrapper.style3 {
 		background-color: var(--main-color);
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
+		color: #fff;
+	}
+
+	.wrapper.style4 {
+		background-color: var(--second-color);
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
