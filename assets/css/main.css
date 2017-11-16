@@ -1927,7 +1927,8 @@
 		margin: 0;
 		top: -1em;
 		font-size: 1.5em;
-		letter-spacing: -0.025em;
+		/*letter-spacing: -0.025em;*/
+		line-height:115%;
 	}
 
 	footer {
@@ -2143,7 +2144,7 @@
 
 
 	.flaticon.major:before {
-		font-size: 56px;
+		font-size: 62px;
 	}
 
 	.flaticon.major-2 {
@@ -2155,7 +2156,7 @@
 
 
 	.flaticon.major-2:before {
-		font-size: 56px;
+		font-size: 62px;
 	}
 
 	/* Icon */
@@ -2880,6 +2881,8 @@
 		header.major p {
 			top: -0.25em;
 			font-size: 1.25em;
+			line-height: 115%;
+
 		}
 
 
