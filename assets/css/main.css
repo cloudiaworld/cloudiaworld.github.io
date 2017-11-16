@@ -2592,7 +2592,7 @@
 		background-image: url("../../images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
-		height: 54em;
+		height: 60em;
 		text-align: center;
 		position: relative;
 	}
@@ -3265,7 +3265,7 @@
 		/* Banner */
 
 		#banner {
-			height: 20em;
+			height: 30em;
 		}
 
 		#banner header {
