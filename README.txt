@@ -2,9 +2,13 @@
 	www.cloudiaworld.com
 
 Credits:
+	Logo and photos:
+		Eleonora Stassi
+		http://www.migrationsmuseum.com/
+		http://illuminasi.tumblr.com/
+		http://www.dieblaueampel.ch/
 	html:
-		Awesome templates:
-		https://html5up.net/
+		Arcana theme by https://html5up.net/
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
 		Flaticon (www.flaticon.com)
