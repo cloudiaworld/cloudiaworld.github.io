@@ -5,6 +5,7 @@
 :root{
 	--main-color:#99cc00;
 	--second-color:#6a4c93;
+	/*--second-color:#009ee3;*/
 	--third-color:#ffca3a;
 }
 
@@ -2020,6 +2021,7 @@
 		border-radius: 5px;
 	}
 
+
 	.image img {
 		display: block;
 		border-radius: 5px;
@@ -2455,6 +2457,10 @@
 		background-repeat: no-repeat,					no-repeat,					repeat;
 	}
 
+	#header img {
+		height:120px;
+	}
+
 	#header h1 {
 		padding: 0 0 2.75em 0;
 		margin: 0;
@@ -2596,6 +2602,7 @@
 		text-align: center;
 		position: relative;
 	}
+
 
 	#banner header {
 		position: absolute;
@@ -2761,7 +2768,6 @@
 		#banner {
 			height: 24em;
 		}
-
 	}
 
 	/* Normal */
@@ -2817,6 +2823,7 @@
 		#cta {
 			padding: 2em 0;
 		}
+
 
 		/* Footer */
 
@@ -2990,13 +2997,13 @@
 			top: 0;
 			width: 100%;
 			z-index: 10001;
-			background-color: #333;
-			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
+			background-color: #fff; /*Background color logo*/
+			/*background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-			height: 44px;
-			line-height: 44px;
+			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");*/
+			height: 60px;
+			line-height: 34px;
 			box-shadow: 0 4px 0 0 var(--main-color);
 		}
 
@@ -3035,13 +3042,17 @@
 		}
 
 		#titleBar .toggle:before {
-			content: '\f0c9';
+			content: '\f0c9'; /*icon*/
 			display: block;
-			height: 44px;
+			height: 54px;
 			text-align: center;
-			width: 44px;
-			color: #fff;
+			width: 54px;
+			color: #333;
 			opacity: 0.5;
+		}
+
+		#titleBar img {
+			height: 60px;
 		}
 
 		#titleBar .toggle:active:before {
@@ -3206,6 +3217,19 @@
 
 		.wrapper {
 			padding: 2em 0 1px 0;
+		}
+
+		/* Icon */
+
+		.icon.major {
+			width: 4em;
+			height: 4em;
+			line-height: 4em;
+			box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
+		}
+
+		.icon.major:before {
+			font-size: 24px;
 		}
 
 	}
