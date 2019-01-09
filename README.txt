@@ -1,7 +1,7 @@
-#Source code for
-	www.cloudiaworld.com
 
 Credits:
+	Centro Internacional de Física (CIF)
+	
 	Logo and photos:
 		Eleonora Stassi
 		http://www.migrationsmuseum.com/
